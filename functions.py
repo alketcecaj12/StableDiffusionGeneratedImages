@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def plot_images(images):
     plt.figure(figsize=(20, 20))
     for i in range(len(images)):
